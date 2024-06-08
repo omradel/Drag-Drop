@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    /* background-image: url(2150367335.jpg); */
+    background-repeat: no-repeat;
+    /* color: #fff; */
+}
+
+h3 {
+    margin-top: 0;
+}
+
+.task_box {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.content {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 20px;
+    border-radius: 4px;
+
+}
+
+.box {
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 4px;
+}
+
+.task {
+    padding: 8px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 2px;
+    cursor: move;
+    background-color: teal;
+    color: #fff;
+}
+
+.task:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.boxs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
